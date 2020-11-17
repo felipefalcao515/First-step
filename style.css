@@ -1,0 +1,74 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+/*header start*/
+/*attributes for the background shape*/
+header {
+    background-image: url("header-background.png");
+    background-size: 100%;
+    border: 1px solid rgba(112,112,112,1);
+    height: 460px;
+    left: 0px;
+    top: 0px;
+    width: 1500px;
+    text-align: center;
+}
+/*properties for each header line of text, respectively(starting with a base, then 1)*/
+/*base*/
+.introduction div {
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    position: relative;
+    opacity: 1;
+}
+/*1*/
+.first-line {
+    font: 20px/24px Helvetica;
+    height: 23px;
+    left: 635px;
+    text-align: center;
+    top: 69px;
+    width: 227px;
+}
+/*2*/
+.second-line {
+    font: bold 40px/49px Helvetica;
+    height: 48px;
+    left: 571px;
+    letter-spacing: 0px;
+    opacity: 1;
+    text-align: center;
+    top: 68px;
+    width: 358px;
+}
+/*3*/
+.third-line {
+    font: 14px/16px Helvetica;
+    height: 16px;
+    left: 476px;
+    letter-spacing: 0px;
+    opacity: 1;
+    text-align: center;
+    top: 92px;
+    width: 548px;
+}
+/*buttons properties*/
+.buttons li {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    border: 1px solid rgba(112, 112, 112, 1);
+    border-radius: 5px;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.16);
+    color: rgba(136, 136, 136, 1);
+    display: inline;
+    left: 50px;
+    list-style-type: none;
+    margin: 0px 40px 0px 0px;
+    padding: 10px 40px;
+    position: relative;
+    text-align: center;
+    top: 130px;
+}
