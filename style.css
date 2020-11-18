@@ -1,9 +1,11 @@
 body {
     background-color: white;
+    font: normal normal bold 18px/16px Helvetica;
     margin: 0;
     padding: 0;
 }
 /*header start*/
+
 /*attributes for the background shape*/
 header {
     background-image: url("header-background.png");
@@ -15,9 +17,11 @@ header {
     width: 1500px;
     text-align: center;
 }
-/*properties for each header line of text, respectively(starting with a base, then 1)*/
+/*properties for each header line of text, respectively
+(starting with a base, then 1)*/
+
 /*base*/
-.introduction div {
+.header div {
     color: #FFFFFF;
     letter-spacing: 0px;
     position: relative;
@@ -71,4 +75,130 @@ header {
     position: relative;
     text-align: center;
     top: 130px;
+}
+section {
+    font: normal normal normal 20px/24px Helvetica;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(136, 136, 136, 1);
+}
+div, li, li{
+    position: relative;
+}
+.title-line {
+    height: 23px;
+    left: 290px;
+    top: 20px;
+    width: 332px;
+}
+.description-line {
+    font: normal normal normal 12px/18px Helvetica;
+    height: 220px;
+    left: 290px;
+    top: 53px;
+    width: 520px;
+}
+.contact-box {
+    font: normal normal normal 12px/14px Helvetica;
+    list-style-type: none;
+}
+.name-at {
+    height: 14px;
+    left: 870px;
+    top: -190px;
+    width: 58px;
+}
+.name-box {
+    background: no-repeat padding-box;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(112, 112, 112, 1);
+    height: 30px;
+    left: 870px;
+    text-indent: -999999999px;
+    top: -183px;
+    width: 340px;
+}
+.mail-at {
+    height: 14px;
+    left: 870px;
+    top: -163px;
+    width: 34px;
+}
+.mail-box {
+    background: no-repeat padding-box;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(112, 112, 112, 1);
+    height: 30px;
+    left: 870px;
+    text-indent: -999999999px;
+    top: -156px;
+    width: 340px;
+}
+.cpf-at {
+    height: 14px;
+    left: 870px;
+    top: -136px;
+    width: 27px;
+}
+.cpf-box {
+    background: no-repeat padding-box;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(112, 112, 112, 1);
+    height: 30px;
+    left: 870px;
+    text-indent: -999999999px;
+    top: -129px;
+    width: 340px;
+}
+/* made a single li for each genre selection, this way the user can mark 
+the check-box by simply clicking in the name*/
+.sex-check {
+    height: 14px;
+    left: 870px;
+    text-indent: -999999999px;
+    width: 203px;
+}
+.sc-checkbox1 {
+    background: no-repeat padding-box;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(112, 112, 112, 1);
+    border-radius: 50%;
+    height: 14px;
+    left: 870px;
+    text-indent: 20px;
+    top: -109px;
+    width: 14px;
+}
+.sc-checkbox2 {
+    background: no-repeat padding-box;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(112, 112, 112, 1);
+    border-radius: 50%;
+    height: 14px;
+    left: 984px;
+    text-indent: 20px;
+    top: -124px;
+    width: 14px;
+}
+.send-button {
+    background: no-repeat padding-box;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(112, 112, 112, 1);
+    border-radius: 4px;
+    height: 39px;
+    left: 870px;
+    position: relative;
+    top: -86px;
+    width: 340px;
+}
+.section2{
+    position: relative;
+}
+.special-selection {
+    background-color: pink;
+    font: normal normal bold 18px/16px Helvetica Neue;
+    height: 22px;
+    left: 666px;
+    top: -7px;
+    width: 190px;
 }
