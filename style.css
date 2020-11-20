@@ -202,6 +202,12 @@ the check-box by simply clicking in the name*/
     text-indent: -999999999px;
     width: 203px;
 }
+.checkbox1-name {
+    height: 14px;
+    left: 889px;
+    top: 635px;
+    width: 14px;
+}
 .sc-checkbox1 {
     background: no-repeat padding-box;
     background-color: rgba(255, 255, 255, 1);
@@ -209,8 +215,15 @@ the check-box by simply clicking in the name*/
     border-radius: 50%;
     height: 14px;
     left: 870px;
+    position: absolute;
     text-indent: 20px;
     top: 633px;
+    width: 14px;
+}
+.checkbox2-name {
+    height: 14px;
+    left: 1003px;
+    top: 635px;
     width: 14px;
 }
 .sc-checkbox2 {
@@ -220,6 +233,7 @@ the check-box by simply clicking in the name*/
     border-radius: 50%;
     height: 14px;
     left: 984px;
+    position: absolute;
     text-indent: 20px;
     top: 633px;
     width: 14px;

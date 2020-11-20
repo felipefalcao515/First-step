@@ -1,17 +1,14 @@
 # First-step
-My first ever attempt at coding an entire web layout
+The build is basecly the layout and ui, the ui could use more adjustment like centering and using a better image for the header and footer background.
 
+Since the JS is unavailable, the buttons and product list is a placeholder for what it was supposed to be;
 
-Created the header layout, i used a placeholder background image since the original layout used a specific shape. Changes:
+For the startup, i used Netifly method of deployment. In my opinion its the easiest to work with. I threw the folder there and they did the work.
 
-- Made changes to the classes names, making it easier to spot;
-- Added a section for the sample text;
-- Added name, mail, cpf, genre* text boxes;
-    * for the genre i created only to li's, one for male and one for female, this way the user can mark the checkbox by clicking both the circle and text;
-- Added another section for the future products list;
+I used the sample text aswell, thought was a good touch for the test. The buttons were customizade accordingly, sadly the checkbox is a bit wonky.
 
-Had to make a few adjustments to the "top" values, the original ones didn't fit well.
+The text input for names, emails, etc ... are working better than i expected, after all its meant to receive text so what else could i expect.
 
-There's still room for some organizations, create folder for the images and pages, etc...
+Overall the uncentered position gets on my nerves, the lack of JS is also worring. But i'll keep working on it even after the test, so i can fix alot of stuff, maybe dry the code more, and add more where its lacking.
 
-I still have some adjustments to make, working right now on the rest of the sections and on making the code dryer. It's a W.I.P.
+I learned so much and had to google alot of things i didn't know before, i thank you all for this oportunity, with hearth.
