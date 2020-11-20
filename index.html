@@ -1,44 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header class="header">
-            <div class="first-line">uma seleção de produtos</div>
-            <div class="second-line">especial para você</div>
-            <div class="third-line">Todos os produtos desta lista foram selecionados a partir da sua navegação. Aproveite!</div>
-            <ul class="buttons">
-                <li>Conheça a Linx</li>
-                <li>Ajude o algorítimo</li>
-                <li>Seus produtos</li>
-                <li>Compartilhe</li>
-            </div>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li class="first-line">uma seleção de produtos</li>
+                    <li class="second-line">especial para você</li>
+                    <li class="third-line">Todos os produtos desta lista foram selecionados a partir da sua navegação. Aproveite!</li>
+                </ul>
+            </nav>
+                <div class="header-buttons">
+                    <button class="button-learnmore">Conheça a Linx</button>
+                    <button class="button-helpcode">Ajude o algorítimo</button>
+                    <button class="button-urproduct">Seus produtos</button>
+                    <button class="button-share">Compartilhe</button>
+                </div>
     </header>
     <section class="section1">
         <div class="title-line">Ajude o algorítimo a ser mais certeiro</div>
         <div class="description-line">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultricies tellus nec mi porta convallis sollicitudin eu urna. Mauris rhoncus erat sed interdum dignissim. Suspendisse semper pretium consectetur. Praesent bibendum arcu risus, sit amet iaculis ex tempus quis. Cras et erat ut tellus vulputate tincidunt. Aenean lacinia euismod augue vel egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum vel urna tortor. Vivamus et arcu non felis tristique eleifend. <br><br>Morbi eu condimentum urna. Curabitur eu magna eget turpis condimentum ultrices. Suspendisse quis lorem ultricies, pulvinar purus sed, egestas erat. Etiam ultricies a ante vehicula pharetra. Quisque ut neque mattis, consequat velit ut, ultrices orci. Nulla varius elementum erat vel pharetra. Aenean sit amet nisi diam.Morbi viverra, magna ac luctus commodo, odio ante suscipit libero, at mattis augue est vel metus.</div>
         <ul class="contact-box">
-            <li class="name-at">Nome</div>
-                <li class="name-box">Preencher Nome</li>
-            <li class="mail-at">E-mail</div>
-                <li class="mail-box">Preencher E-mail</li>
-            <li class="cpf-at">CPF</div>
-                <li class="cpf-box">Preencher CPF</li>
+            <li class="name-at">Nome</li>
+                <input class="name-box" type="text" name="Preencher Nome"></input>
+            <li class="mail-at">E-mail</li>
+                <input class="mail-box" type="text" name="Preencher E-mail"></input>
+            <li class="cpf-at">CPF</li>
+                <input class="cpf-box" type="text" name="Preencher CPF"></input>
             <li class="sex-check">Sexo</li>
                 <li class="sc-checkbox1">Masculino</li>
                 <li class="sc-checkbox2">Feminino</li>
             <button class="send-button">Enviar</button>
         </ul>
     </section>
-    <section class="section2">
-        <div class="special-selection">Sua seleção especial</div>
+    <section class="middle-section">
+            <ul class="interceptor-line">
+                <li class="line-interceptor"></li>
+            </ul>
+        <div class="special-background"></div>
+        <div class="products-start">Sua seleção especial</div>
+            <ul class="products-list">
+                <li class="box1">Produto 1</li>
+                    <li class="box1-prev">productimage</li>
+                    <li class="box1-name">Nome do produto</li>
+                    <li class="box1-desc">Descrição do produto um pouco maior, com duas linhas ou três que explica melhor do que se trata.</li>
+                    <li class="box1-pric">De: R$23,99</li>
+                    <li class="box1-now">Por: R$19,99</li>
+                    <li class="box1-parc">ou 2x de R$9,99</li>
+                    <button class="box1-button">Comprar</button>
+                <li class="box2">product2</li>
+                    <li class="box2-prev">productimage</li>
+                    <li class="box2-name">Nome do produto</li>
+                    <li class="box2-desc">Descrição do produto um pouco maior, com duas linhas ou três que explica melhor do que se trata.</li>
+                    <li class="box2-pric">De: R$23,99</li>
+                    <li class="box2-now">Por: R$19,99</li>
+                    <li class="box2-parc">ou 2x de R$9,99</li>
+                    <button class="box2-button">Comprar</button>
+                <li class="box3">product3</li>
+                    <li class="box3-prev">productimage</li>
+                    <li class="box3-name">Nome do produto</li>
+                    <li class="box3-desc">Descrição do produto um pouco maior, com duas linhas ou três que explica melhor do que se trata.</li>
+                    <li class="box3-pric">De: R$23,99</li>
+                    <li class="box3-now">Por: R$19,99</li>
+                    <li class="box3-parc">ou 2x de R$9,99</li>
+                    <button class="box3-button">Comprar</button>
+                <li class="box4">product4</li>
+                    <li class="box4-prev">productimage</li>
+                    <li class="box4-name">Nome do produto</li>
+                    <li class="box4-desc">Descrição do produto um pouco maior, com duas linhas ou três que explica melhor do que se trata.</li>
+                    <li class="box4-pric">De: R$23,99</li>
+                    <li class="box4-now">Por: R$19,99</li>
+                    <li class="box4-parc">ou 2x de R$9,99</li>
+                    <button class="box4-button">Comprar</button>
+                <li class="box5">product5</li>
+                    <li class="box5-prev">productimage</li>
+                    <li class="box5-name">Nome do produto</li>
+                    <li class="box5-desc">Descrição do produto um pouco maior, com duas linhas ou três que explica melhor do que se trata.</li>
+                    <li class="box5-pric">De: R$23,99</li>
+                    <li class="box5-now">Por: R$19,99</li>
+                    <li class="box6-parc">ou 2x de R$9,99</li>
+                    <button class="box5-button">Comprar</button>
+                <li class="box6">product6</li>
+                    <li class="box6-prev">productimage</li>
+                    <li class="box6-name">Nome do produto</li>
+                    <li class="box6-desc">Descrição do produto um pouco maior, com duas linhas ou três que explica melhor do que se trata.</li>
+                    <li class="box6-pric">De: R$23,99</li>
+                    <li class="box6-now">Por: R$19,99</li>
+                    <li class="box6-parc">ou 2x de R$9,99</li>
+                    <button class="box6-button">Comprar</button>
+                <li class="box7">product7</li>
+                    <li class="box7-prev">productimage</li>
+                    <li class="box7-name">Nome do produto</li>
+                    <li class="box7-desc">Descrição do produto um pouco maior, com duas linhas ou três que explica melhor do que se trata.</li>
+                    <li class="box7-pric">De: R$23,99</li>
+                    <li class="box7-now">Por: R$19,99</li>
+                    <li class="box7-parc">ou 2x de R$9,99</li>
+                    <button class="box7-button">Comprar</button>
+                <li class="box8">product8</li>
+                    <li class="box8-prev">productimage</li>
+                    <li class="box8-name">Nome do produto</li>
+                    <li class="box8-desc">Descrição do produto um pouco maior, com duas linhas ou três que explica melhor do que se trata.</li>
+                    <li class="box8-pric">De: R$23,99</li>
+                    <li class="box8-now">Por: R$19,99</li>
+                    <li class="box8-parc">ou 2x de R$9,99</li>
+                    <button class="box8-button">Comprar</button>
+            </ul>
+        <button class="button-more">
+                Ainda mais produtos aqui!
+        </button>
+            <ul class="interceptor-end">
+                <li class="end-interceptor"></li>
+            </ul>
+        <div class="special-end-background"></div>
+        <div class="products-end">Compartilhe a novidade</div>
     </section>
     <footer>
-        footer
+        <div class="footer-start">
+            <li>Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!</li>
+        </div>
+        <ul>
+            <li class="friend-name-at">Nome do seu amigo:</li>
+                <input class="friend-name-box" type="text" name="name"></input>
+            <li class="friend-mail-at">E-mail:</li>
+                <input class="friend-mail-box" type="text" name="mail"></input>
+            <button class="friend-send-now">Enviar agora</button>
+        </ul>
+        <div class="footer-background"></div>
+        <div class="footer-end">Testando suas habilidades em HTML, CSS e JS. <br>Linx Impulse <br>2019</div>
     </footer>
 </body>
 </html>

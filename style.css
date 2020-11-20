@@ -1,6 +1,5 @@
-body {
+body{
     background-color: white;
-    font: normal normal bold 18px/16px Helvetica;
     margin: 0;
     padding: 0;
 }
@@ -8,73 +7,118 @@ body {
 
 /*attributes for the background shape*/
 header {
-    background-image: url("header-background.png");
-    background-size: 100%;
-    border: 1px solid rgba(112,112,112,1);
-    height: 460px;
-    left: 0px;
-    top: 0px;
+    background: no-repeat;
+    background-image: url("images/background-header.png");
+    background-position-y: -80px;
+    height: 399px;
+    padding: 20px;
     width: 1500px;
-    text-align: center;
 }
 /*properties for each header line of text, respectively
 (starting with a base, then 1)*/
 
 /*base*/
-.header div {
-    color: #FFFFFF;
+nav ul{
+    margin: 0;
     letter-spacing: 0px;
-    position: relative;
-    opacity: 1;
+    list-style-type: none;
+    padding: 0;
+}
+nav li {
+    color: rgba(255, 255, 255, 1);
+    margin: auto;
 }
 /*1*/
 .first-line {
-    font: 20px/24px Helvetica;
+    font: normal normal normal 20px/24px Helvetica;
     height: 23px;
     left: 635px;
-    text-align: center;
+    text-align: left;
     top: 69px;
     width: 227px;
 }
 /*2*/
 .second-line {
-    font: bold 40px/49px Helvetica;
+    font: normal normal bold 40px/49px Helvetica;
     height: 48px;
     left: 571px;
-    letter-spacing: 0px;
     opacity: 1;
     text-align: center;
-    top: 68px;
+    top: 92px;
     width: 358px;
 }
 /*3*/
 .third-line {
-    font: 14px/16px Helvetica;
+    font: normal normal normal 14px/16px Helvetica;
     height: 16px;
     left: 476px;
     letter-spacing: 0px;
     opacity: 1;
     text-align: center;
-    top: 92px;
+    top: 164px;
     width: 548px;
 }
 /*buttons properties*/
-.buttons li {
-    background-color: white;
-    background-repeat: no-repeat;
-    background-origin: padding-box;
+.header-buttons {
+    background: repeat padding-box;
+    height: 50px;
+    left: 371px;
+    margin: auto;
+    position: absolute;
+    top: 230px;
+    width: 802px;
+}
+.button-learnmore {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.16);;
     border: 1px solid rgba(112, 112, 112, 1);
-    border-radius: 5px;
-    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
     color: rgba(136, 136, 136, 1);
-    display: inline;
-    left: 50px;
-    list-style-type: none;
-    margin: 0px 40px 0px 0px;
-    padding: 10px 40px;
-    position: relative;
-    text-align: center;
-    top: 130px;
+    font: normal normal normal 14px/16px Helvetica Neue;
+    height: 40px;
+    left: 371px;
+    margin: 0 30px 0 0;
+    top: 230px;
+    width: 160px;
+}
+.button-helpcode {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.16);;
+    border: 1px solid rgba(112, 112, 112, 1);
+    border-radius: 4px;
+    color: rgba(136, 136, 136, 1);
+    font: normal normal normal 14px/16px Helvetica Neue;
+    height: 40px;
+    left: 571px;
+    margin: 0 40px 0 0;
+    top: 230px;
+    width: 160px;
+}
+.button-urproduct {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.16);;
+    border: 1px solid rgba(112, 112, 112, 1);
+    border-radius: 4px;
+    color: rgba(136, 136, 136, 1);
+    font: normal normal normal 14px/16px Helvetica Neue;
+    height: 40px;
+    left: 771px;
+    margin: 0 40px 0 0;
+    top: 230px;
+    width: 160px;
+}
+.button-share {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.16);;
+    border: 1px solid rgba(112, 112, 112, 1);
+    border-radius: 4px;
+    color: rgba(136, 136, 136, 1);
+    font: normal normal normal 14px/16px Helvetica Neue;
+    height: 40px;
+    left: 971px;
+    margin: 0 40px 0 0;
+    top: 230px;
+    width: 160px;
 }
 section {
     font: normal normal normal 20px/24px Helvetica;
@@ -83,19 +127,19 @@ section {
     color: rgba(136, 136, 136, 1);
 }
 div, li, li{
-    position: relative;
+    position: absolute;
 }
 .title-line {
     height: 23px;
     left: 290px;
-    top: 20px;
+    top: 420px;
     width: 332px;
 }
 .description-line {
     font: normal normal normal 12px/18px Helvetica;
     height: 220px;
     left: 290px;
-    top: 53px;
+    top: 473px;
     width: 520px;
 }
 .contact-box {
@@ -105,7 +149,7 @@ div, li, li{
 .name-at {
     height: 14px;
     left: 870px;
-    top: -190px;
+    top: 420px;
     width: 58px;
 }
 .name-box {
@@ -114,15 +158,15 @@ div, li, li{
     border: 1px solid rgba(112, 112, 112, 1);
     height: 30px;
     left: 870px;
-    text-indent: -999999999px;
-    top: -183px;
+    position: absolute;
+    top: 441px;
     width: 340px;
 }
 .mail-at {
     height: 14px;
     left: 870px;
-    top: -163px;
-    width: 34px;
+    top: 491px;
+    width: 39px;
 }
 .mail-box {
     background: no-repeat padding-box;
@@ -130,14 +174,14 @@ div, li, li{
     border: 1px solid rgba(112, 112, 112, 1);
     height: 30px;
     left: 870px;
-    text-indent: -999999999px;
-    top: -156px;
+    position: absolute;
+    top: 512px;
     width: 340px;
 }
 .cpf-at {
     height: 14px;
     left: 870px;
-    top: -136px;
+    top: 562px;
     width: 27px;
 }
 .cpf-box {
@@ -146,8 +190,8 @@ div, li, li{
     border: 1px solid rgba(112, 112, 112, 1);
     height: 30px;
     left: 870px;
-    text-indent: -999999999px;
-    top: -129px;
+    position: absolute;
+    top: 583px;
     width: 340px;
 }
 /* made a single li for each genre selection, this way the user can mark 
@@ -166,7 +210,7 @@ the check-box by simply clicking in the name*/
     height: 14px;
     left: 870px;
     text-indent: 20px;
-    top: -109px;
+    top: 633px;
     width: 14px;
 }
 .sc-checkbox2 {
@@ -177,7 +221,7 @@ the check-box by simply clicking in the name*/
     height: 14px;
     left: 984px;
     text-indent: 20px;
-    top: -124px;
+    top: 633px;
     width: 14px;
 }
 .send-button {
@@ -185,20 +229,674 @@ the check-box by simply clicking in the name*/
     background-color: rgba(255, 255, 255, 1);
     border: 1px solid rgba(112, 112, 112, 1);
     border-radius: 4px;
+    color: rgba(136, 136, 136, 1);
     height: 39px;
     left: 870px;
-    position: relative;
-    top: -86px;
+    position: absolute;
+    top: 670px;
     width: 340px;
 }
-.section2{
-    position: relative;
+section.middle-section {
+    letter-spacing: 0px;
 }
-.special-selection {
-    background-color: pink;
+.products-start {
     font: normal normal bold 18px/16px Helvetica Neue;
     height: 22px;
     left: 666px;
-    top: -7px;
-    width: 190px;
+    text-align: center;
+    top: 788px;
+    width: 181px;
+}
+.special-background {
+    background: no-repeat padding-box;
+    background-color: white;
+    left: 649px;
+    height: 40px;
+    top: 780px;
+    width: 215px;
+}
+.interceptor-line li{
+    border: 1px solid rgba(112, 112, 112, 1);
+    height: 0px;
+    list-style-type: none;
+}
+.line-interceptor {
+    left: 290px;
+    top: 800px;
+    width: 920px;
+}
+.products-list {
+    list-style-type: none;
+    left: 285px;
+    position: initial;
+    top: 860px;
+    width: 931px;
+    height: 740px;
+}
+.products-list li,li{
+    color: rgba(136, 136, 136, 1);
+    letter-spacing: 0px;
+    text-align: left;
+}
+.box1 {
+    height: 350px;
+    left: 285px;
+    top: 860px;
+    width: 201px;
+}
+.box1-prev {
+    background: no-repeat padding-box;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(112, 112, 112, 1);
+    height: 150px;
+    left: 286px;
+    top: 860px;
+    width: 200px;
+}
+.box1-name {
+    font: normal normal normal 14px/16px Helvetica Neue;
+    height: 16px;
+    left: 285px;
+    top: 1024px;
+    width: 111px;
+}
+.box1-desc {
+    font: normal normal normal 12px/16px Helvetica Neue;
+    height: 60px;
+    left: 286px;
+    top: 1050px;
+    width: 200px;
+}
+.box1-pric {
+    font: normal normal normal 12px/16px Helvetica Neue;
+    height: 14px;
+    left: 286px;
+    top: 1110px;
+    width: 66px;
+}
+.box1-now {
+    font: normal normal bold 16px/16px Helvetica Neue;
+    height: 19px;
+    left: 286px;
+    top: 1130px;
+    width: 96px;
+}
+.box1-parc {
+    font: normal normal normal 12px/16px Helvetica Neue;
+    height: 14px;
+    left: 286px;
+    top: 1156px;
+    width: 88px;
+}
+.box1-button {
+    background: no-repeat padding-box;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(112, 112, 112, 1);
+    border-radius: 4px;
+    color: rgba(136, 136, 136, 1);
+    font: normal normal normal 16px/16px Helvetica Neue;
+    height: 30px;
+    left: 286px;
+    position: absolute;
+    top: 1180px;
+    width: 200px;
+}
+.box2 {
+    height: 350px;
+    left: 526px;
+    top: 860px;
+    width: 201px;
+}
+.box2-prev {
+    background: no-repeat padding-box;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(112, 112, 112, 1);
+    height: 150px;
+    left: 527px;
+    top: 860px;
+    width: 200px;
+}
+.box2-name {
+    font: normal normal normal 14px/16px Helvetica Neue;
+    height: 16px;
+    left: 526px;
+    top: 1024px;
+    width: 111px;
+}
+.box2-desc {
+    font: normal normal normal 12px/16px Helvetica Neue;
+    height: 60px;
+    left: 527px;
+    top: 1050px;
+    width: 200px;
+}
+.box2-pric {
+    font: normal normal normal 12px/16px Helvetica Neue;
+    height: 14px;
+    left: 527px;
+    top: 1110px;
+    width: 66px;
+}
+.box2-now {
+    font: normal normal bold 16px/16px Helvetica Neue;
+    height: 19px;
+    left: 527px;
+    top: 1130px;
+    width: 96px;
+}
+.box2-parc {
+    font: normal normal normal 12px/16px Helvetica Neue;
+    height: 14px;
+    left: 527px;
+    top: 1156px;
+    width: 88px;
+}
+.box2-button {
+    background: no-repeat padding-box;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(112, 112, 112, 1);
+    border-radius: 4px;
+    color: rgba(136, 136, 136, 1);
+    font: normal normal normal 16px/16px Helvetica Neue;
+    height: 30px;
+    left: 527px;
+    position: absolute;
+    top: 1180px;
+    width: 200px;
+}
+.box3 {
+    height: 350px;
+    left: 767px;
+    top: 860px;
+    width: 201px;
+
+}
+.box3-prev {
+    background: no-repeat padding-box;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(112, 112, 112, 1);
+    height: 150px;
+    left: 768px;
+    top: 860px;
+    width: 200px;
+}
+.box3-name {
+    font: normal normal normal 14px/16px Helvetica Neue;
+    height: 16px;
+    left: 767px;
+    top: 1024px;
+    width: 111px;
+}
+.box3-desc {
+    font: normal normal normal 12px/16px Helvetica Neue;
+    height: 60px;
+    left: 768px;
+    top: 1050px;
+    width: 200px;
+}
+.box3-pric {
+    font: normal normal normal 12px/16px Helvetica Neue;
+    height: 14px;
+    left: 768px;
+    top: 1110px;
+    width: 66px;
+}
+.box3-now {
+    font: normal normal bold 16px/16px Helvetica Neue;
+    height: 19px;
+    left: 768px;
+    top: 1130px;
+    width: 96px;
+}
+.box3-parc {
+    font: normal normal normal 12px/16px Helvetica Neue;
+    height: 14px;
+    left: 768px;
+    top: 1156px;
+    width: 88px;
+}
+.box3-button {
+    background: no-repeat padding-box;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(112, 112, 112, 1);
+    border-radius: 4px;
+    color: rgba(136, 136, 136, 1);
+    font: normal normal normal 16px/16px Helvetica Neue;
+    height: 30px;
+    left: 768px;
+    position: absolute;
+    top: 1180px;
+    width: 200px;
+}
+.box4 {
+    height: 350px;
+    left: 1008px;
+    top: 860px;
+    width: 201px;
+}
+.box4-prev {
+    background: no-repeat padding-box;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(112, 112, 112, 1);
+    height: 150px;
+    left: 1009px;
+    top: 860px;
+    width: 200px;
+}
+.box4-name {
+    font: normal normal normal 14px/16px Helvetica Neue;
+    height: 16px;
+    left: 1008px;
+    top: 1024px;
+    width: 111px;
+}
+.box4-desc {
+    font: normal normal normal 12px/16px Helvetica Neue;
+    height: 60px;
+    left: 1009px;
+    top: 1050px;
+    width: 200px;
+}
+.box4-pric {
+    font: normal normal normal 12px/16px Helvetica Neue;
+    height: 14px;
+    left: 1009px;
+    top: 1110px;
+    width: 66px;
+}
+.box4-now {
+    font: normal normal bold 16px/16px Helvetica Neue;
+    height: 19px;
+    left: 1009px;
+    top: 1130px;
+    width: 96px;
+}
+.box4-parc {
+    font: normal normal normal 12px/16px Helvetica Neue;
+    height: 14px;
+    left: 1009px;
+    top: 1156px;
+    width: 88px;
+}
+.box4-button {
+    background: no-repeat padding-box;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(112, 112, 112, 1);
+    border-radius: 4px;
+    color: rgba(136, 136, 136, 1);
+    font: normal normal normal 16px/16px Helvetica Neue;
+    height: 30px;
+    left: 1009px;
+    position: absolute;
+    top: 1180px;
+    width: 200px;
+}
+.box5 {
+    height: 350px;
+    left: 285px;
+    top: 1249px;
+    width: 201px;
+}
+.box5-prev {
+    background: no-repeat padding-box;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(112, 112, 112, 1);
+    height: 150px;
+    left: 286px;
+    top: 1249px;
+    width: 200px;
+}
+.box5-name {
+    font: normal normal normal 14px/16px Helvetica Neue;
+    height: 16px;
+    left: 285px;
+    top: 1413px;
+    width: 111px;
+}
+.box5-desc {
+    font: normal normal normal 12px/16px Helvetica Neue;
+    height: 60px;
+    left: 286px;
+    top: 1439px;
+    width: 200px;
+}
+.box5-pric {
+    font: normal normal normal 12px/16px Helvetica Neue;
+    height: 14px;
+    left: 286px;
+    top: 1499px;
+    width: 66px;
+}
+.box5-now {
+    font: normal normal bold 16px/16px Helvetica Neue;
+    height: 19px;
+    left: 286px;
+    top: 1519px;
+    width: 96px;
+}
+.box5-parc {
+    font: normal normal normal 12px/16px Helvetica Neue;
+    height: 14px;
+    left: 286px;
+    top: 1545px;
+    width: 88px;
+}
+.box5-button {
+    background: no-repeat padding-box;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(112, 112, 112, 1);
+    border-radius: 4px;
+    color: rgba(136, 136, 136, 1);
+    font: normal normal normal 16px/16px Helvetica Neue;
+    height: 30px;
+    left: 286px;
+    position: absolute;
+    top: 1569px;
+    width: 200px;
+}
+.box6 {
+    height: 350px;
+    left: 526px;
+    top: 1249px;
+    width: 201px;
+}
+.box6-prev {
+    background: no-repeat padding-box;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(112, 112, 112, 1);
+    height: 150px;
+    left: 527px;
+    top: 1249px;
+    width: 200px;
+}
+.box6-name {
+    font: normal normal normal 14px/16px Helvetica Neue;
+    height: 16px;
+    left: 526px;
+    top: 1413px;
+    width: 111px;
+}
+.box6-desc {
+    font: normal normal normal 12px/16px Helvetica Neue;
+    height: 60px;
+    left: 527px;
+    top: 1439px;
+    width: 200px;
+}
+.box6-pric {
+    font: normal normal normal 12px/16px Helvetica Neue;
+    height: 14px;
+    left: 527px;
+    top: 1499px;
+    width: 66px;
+}
+.box6-now {
+    font: normal normal bold 16px/16px Helvetica Neue;
+    height: 19px;
+    left: 527px;
+    top: 1519px;
+    width: 96px;
+}
+.box6-parc {
+    font: normal normal normal 12px/16px Helvetica Neue;
+    height: 14px;
+    left: 527px;
+    top: 1545px;
+    width: 88px;
+}
+.box6-button {
+    background: no-repeat padding-box;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(112, 112, 112, 1);
+    border-radius: 4px;
+    color: rgba(136, 136, 136, 1);
+    font: normal normal normal 16px/16px Helvetica Neue;
+    height: 30px;
+    left: 527px;
+    position: absolute;
+    top: 1569px;
+    width: 200px;
+}
+.box7 {
+    height: 350px;
+    left: 767px;
+    top: 1249px;
+    width: 201px;
+}
+.box7-prev {
+    background: no-repeat padding-box;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(112, 112, 112, 1);
+    height: 150px;
+    left: 768px;
+    top: 1249px;
+    width: 200px;
+}
+.box7-name {
+    font: normal normal normal 14px/16px Helvetica Neue;
+    height: 16px;
+    left: 767px;
+    top: 1413px;
+    width: 111px;
+}
+.box7-desc {
+    font: normal normal normal 12px/16px Helvetica Neue;
+    height: 60px;
+    left: 768px;
+    top: 1439px;
+    width: 200px;
+}
+.box7-pric {
+    font: normal normal normal 12px/16px Helvetica Neue;
+    height: 14px;
+    left: 768px;
+    top: 1499px;
+    width: 66px;
+}
+.box7-now {
+    font: normal normal bold 16px/16px Helvetica Neue;
+    height: 19px;
+    left: 768px;
+    top: 1519px;
+    width: 96px;
+}
+.box7-parc {
+    font: normal normal normal 12px/16px Helvetica Neue;
+    height: 14px;
+    left: 768px;
+    top: 1545px;
+    width: 88px;
+}
+.box7-button {
+    background: no-repeat padding-box;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(112, 112, 112, 1);
+    border-radius: 4px;
+    color: rgba(136, 136, 136, 1);
+    font: normal normal normal 16px/16px Helvetica Neue;
+    height: 30px;
+    left: 768px;
+    position: absolute;
+    top: 1569px;
+    width: 200px;
+}
+.box8 {
+    height: 350px;
+    left: 1008px;
+    top: 1249px;
+    width: 201px;
+}
+.box8-prev {
+    background: no-repeat padding-box;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(112, 112, 112, 1);
+    height: 150px;
+    left: 1009px;
+    top: 1249px;
+    width: 200px;
+}
+.box8-name {
+    font: normal normal normal 14px/16px Helvetica Neue;
+    height: 16px;
+    left: 1008px;
+    top: 1413px;
+    width: 111px;
+}
+.box8-desc {
+    font: normal normal normal 12px/16px Helvetica Neue;
+    height: 60px;
+    left: 1009px;
+    top: 1439px;
+    width: 200px;
+}
+.box8-pric {
+    font: normal normal normal 12px/16px Helvetica Neue;
+    height: 14px;
+    left: 1009px;
+    top: 1499px;
+    width: 66px;
+}
+.box8-now {
+    font: normal normal bold 16px/16px Helvetica Neue;
+    height: 19px;
+    left: 1009px;
+    top: 1519px;
+    width: 96px;
+}
+.box8-parc {
+    font: normal normal normal 12px/16px Helvetica Neue;
+    height: 14px;
+    left: 1009px;
+    top: 1545px;
+    width: 88px;
+}
+.box8-button {
+    background: no-repeat padding-box;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(112, 112, 112, 1);
+    border-radius: 4px;
+    color: rgba(136, 136, 136, 1);
+    font: normal normal normal 16px/16px Helvetica Neue;
+    height: 30px;
+    left: 1009px;
+    position: absolute;
+    top: 1569px;
+    width: 200px;
+}
+.button-more {
+    background: no-repeat padding-box;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(112, 112, 112, 1);
+    border-radius: 4px;
+    color: rgba(136, 136, 136, 1);
+    height: 39px;
+    left: 620px;
+    position: absolute;
+    top: 1651px;
+    width: 260px;
+}
+.interceptor-end li{
+    border: 1px solid rgba(112, 112, 112, 1);
+    height: 0px;
+    list-style-type: none;
+}
+.end-interceptor {
+    left: 290px;
+    top: 1830px;
+    width: 920px;
+}
+.special-end-background {
+    background: no-repeat padding-box;
+    background-color: white;
+    top: 1810px;
+    left: 649px;
+    width: 215px;
+    height: 40px;
+}
+.products-end {
+    font: normal normal bold 18px/16px Helvetica Neue;
+    height: 22px;
+    left: 655px;
+    text-align: center;
+    top: 1818px;
+    width: 204px;
+}
+footer ul,li{
+    color: rgba(136, 136, 136, 1);
+    font: normal normal normal 14px/16px Helvetica Neue;
+    list-style-type: none;
+}
+.footer-start {
+    height: 16px;
+    left: 483px;
+    text-align: center;
+    top: 1884px;
+    width: 534px;
+}
+.friend-name-at {
+    font: normal normal normal 12px/14px Helvetica Neue;
+    height: 14px;
+    left: 390px;
+    text-align: left;
+    top: 1939px;
+    width: 112px;
+}
+.friend-name-box {
+    background: no-repeat padding-box;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(112, 112, 112, 1);
+    height: 30px;
+    left: 390px;
+    position: absolute;
+    top: 1960px;
+    width: 340px;
+}
+.friend-mail-at {
+    font: normal normal normal 12px/14px Helvetica Neue;
+    height: 14px;
+    left: 770px;
+    text-align: left;
+    top: 1939px;
+    width: 37px;
+}
+.friend-mail-box {
+    background: no-repeat padding-box;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(112, 112, 112, 1);
+    height: 30px;
+    left: 770px;
+    position: absolute;
+    top: 1960px;
+    width: 340px;
+}
+.friend-send-now {
+    background: no-repeat padding-box;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(112, 112, 112, 1);
+    border-radius: 4px;
+    color: rgba(136, 136, 136, 1);
+    font: normal normal normal 16px/16px Helvetica Neue;
+    height: 39px;
+    left: 620px;
+    position: absolute;
+    top: 2040px;
+    width: 260px;
+}
+.footer-background {
+    background: no-repeat;
+    background-image: url("images/background-footer.png");
+    background-position-y: -50px;
+    height: 293px;
+    top: 2151px;
+    width: 100%;
+}
+.footer-end {
+    color: white;
+    font: normal normal normal 12px/18px Helvetica;
+    height: 50px;
+    left: 620px;
+    opacity: 1;
+    text-align: center;
+    top: 2308px;
+    width: 260px;
 }
